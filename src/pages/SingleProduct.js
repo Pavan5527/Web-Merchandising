@@ -17,6 +17,15 @@ const SingleProduct = () => {
     img: "https://cdn2.chrono24.com/images/uhren/14836757-s1zgt9htvausxng4p7nh22ey-ExtraLarge.jpg",
   };
   const [orderedProduct, setorderedProduct] = useState(true);
+  const copyToClipboard = (text) => {
+    console.log("text", text);
+    var textField = document.createElement("textarea");
+    textField.innerText = text;
+    document.body.appendChild(textField);
+    textField.select();
+    document.execCommand("copy");
+    textField.remove();
+  };
   return (
     <>
       <Meta title={"Product Name"} />
@@ -153,17 +162,38 @@ const SingleProduct = () => {
                   </div>
                   <div className="d-flex align-items-center gap-15">
                     <div>
-                      <a href="">
+                      <a className="mt-3" href="">
                         <TbGitCompare className="fs-5 me-2" />
                         Add to Compare
                       </a>
                     </div>
                     <div>
-                      <a href="">
+                      <a className="mt-3" href="">
                         <AiOutlineHeart className="fs-5 me-2" />
                         Add to wishlist
                       </a>
                     </div>
+                  </div>
+                  <div className="d-flex gap-10 flex-column my-3">
+                    <h3 className="product-heading">Shipping & Returns :</h3>
+                    <p className="product-data">
+                      Free shipping and returns available on all orders!
+                      <br />
+                      we ship all domestic orders with <b>5-10 business days</b>
+                    </p>
+                  </div>
+                  <div className="d-flex gap-10 align-items-center my-3">
+                    <h3 className="product-heading">product link</h3>
+                    <a
+                      href="javascript:void(0);"
+                      onClick={() => {
+                        copyToClipboard(
+                          "https://cdn2.chrono24.com/images/uhren/14836757-s1zgt9htvausxng4p7nh22ey-ExtraLarge.jpg"
+                        );
+                      }}
+                    >
+                      Copy Product Link
+                    </a>
                   </div>
                 </div>
               </div>

@@ -3,6 +3,7 @@ import BreadCrum from "../components/BreadCrum";
 import Meta from "../components/Meta";
 import { Link } from "react-router-dom";
 import {HiOutlineArrowLeft} from "react-icons/hi"
+import blog from "../images/blog-1.jpg"
 
 const SingleBlog = () => {
   return (
@@ -18,7 +19,7 @@ const SingleBlog = () => {
               <HiOutlineArrowLeft className="fs-4" />
               Go Back to Blogs</Link>
                 <h3 className="title">A Beatiful Sunday Morning Renaissance</h3>
-                <img className="im-fluid w-100 my-4" src="images/blog-1.jpg" alt="blog" />
+                <img className="im-fluid w-100 my-4" src={blog} alt="blog" />
                 <p>
                   computing, data is information that has been translated into a
                   form that is efficient for movement or processing. Relative to
