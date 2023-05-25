@@ -741,3 +741,14 @@ footer .input-group-text {
 }
 
 /* Cart page ends here */
+
+/* Shipping page */
+.total{
+  font-size: 14px;
+  color: var(--color-1c1c1b);
+}
+.total-price{
+  font-size: 16px;
+  color: var(--color-777777);
+}
+/* Shipping page ends here */
