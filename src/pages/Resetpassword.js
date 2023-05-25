@@ -2,13 +2,14 @@ import React from "react";
 import BreadCrum from "../components/BreadCrum";
 import Meta from "../components/Meta";
 import { Link } from "react-router-dom";
+import Container from "../components/Container";
 
 const Resetpassword = () => {
   return (
     <>
       <Meta title={"Reset Password"} />
       <BreadCrum title="Reset Password" />
-      <div className="login-wrapper wish py-5 home-wrapper-2">
+      <Container class1="login-wrapper wish py-5 home-wrapper-2">
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">
@@ -41,7 +42,7 @@ const Resetpassword = () => {
             </div>
           </div>
         </div>
-      </div>
+      </Container>
     </>
   );
 };

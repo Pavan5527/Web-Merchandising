@@ -4,12 +4,12 @@ import Meta from "../components/Meta";
 import ReactStars from "react-rating-stars-component";
 import ProductCard from "../components/ProductCard";
 import Color from "../components/Color";
-import watch from "../images/watch.jpg"
+import watch from "../images/watch.jpg";
 import gr1 from "../images/gr.svg";
 import gr2 from "../images/gr2.svg";
 import gr3 from "../images/gr3.svg";
-import gr4 from "../images/gr4.svg"
-
+import gr4 from "../images/gr4.svg";
+import Container from "../components/Container";
 
 const OurStore = () => {
   const [grid, setGrid] = useState(3);
@@ -18,7 +18,7 @@ const OurStore = () => {
     <>
       <Meta title={"Our Store"} />
       <BreadCrum title="Our Store" />
-      <div className="store-wrapper home-wrapper-2 py-5">
+      <Container class1="store-wrapper home-wrapper-2 py-5">
         <div className="container-xxl">
           <div className="row">
             <div className="col-3">
@@ -138,11 +138,7 @@ const OurStore = () => {
                 <div>
                   <div className="random-products mb-3 d-flex">
                     <div className="w-50">
-                      <img
-                        src={watch}
-                        className="img-fluid"
-                        alt="watch"
-                      />
+                      <img src={watch} className="img-fluid" alt="watch" />
                     </div>
                     <div className="w-50">
                       <h5>
@@ -162,11 +158,7 @@ const OurStore = () => {
                   </div>
                   <div className="random-products d-flex">
                     <div className="w-50">
-                      <img
-                        src={watch}
-                        className="img-fluid"
-                        alt="watch"
-                      />
+                      <img src={watch} className="img-fluid" alt="watch" />
                     </div>
                     <div className="w-50">
                       <h5>
@@ -267,7 +259,7 @@ const OurStore = () => {
             </div>
           </div>
         </div>
-      </div>
+      </Container>
     </>
   );
 };

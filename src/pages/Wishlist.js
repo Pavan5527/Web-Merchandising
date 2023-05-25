@@ -3,13 +3,14 @@ import BreadCrum from "../components/BreadCrum";
 import Meta from "../components/Meta";
 import watch from "../images/watch.jpg";
 import cross from "../images/cross.svg"
+import Container from "../components/Container";
 
 const Wishlist = () => {
   return (
     <>
       <Meta title={"Wishlist"} />
       <BreadCrum title="Wishlist" />
-      <div className="wishlist-wrapper wish home-wrapper-2 py-5">
+      <Container class1="wishlist-wrapper wish home-wrapper-2 py-5">
         <div className="container-xxl" >
           <div className="row">
           <div className="col-3">
@@ -86,7 +87,7 @@ const Wishlist = () => {
             </div>
           </div>
         </div>
-      </div>
+      </Container>
     </>
   );
 };
