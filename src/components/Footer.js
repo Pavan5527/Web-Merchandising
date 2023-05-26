@@ -37,10 +37,10 @@ const Footer = () => {
         <div className="container-xxl">
           <div className="row">
             <div className="col-4">
-              <h4 className="text-white mb-4">Contact Is</h4>
+              <h4 className="text-white mb-4">Contact Us</h4>
               <div>
                 <address className="text-white fs-6">
-                  Hno : 42-590 Jagathgirigutta, <br />
+                  Hno : 42-880, Jagathgirigutta, <br />
                   Hyderabad, Telangana <br />
                   Pincode: 500037
                 </address>
