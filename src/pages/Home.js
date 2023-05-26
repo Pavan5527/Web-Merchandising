@@ -9,7 +9,6 @@ import catbanner from "../images/catbanner-01.jpg";
 import catbanner2 from "../images/catbanner-02.jpg";
 import catbanner3 from "../images/catbanner-03.jpg";
 import catbanner4 from "../images/catbanner-04.jpg";
-
 import headphone from "../images/headphone.jpg";
 import camera from "../images/camera.jpg";
 import tv from "../images/tv.jpg";
@@ -203,50 +202,6 @@ const Home = () => {
           <ProductCard />
           <ProductCard />
           <ProductCard />
-        </div>
-      </Container>
-      <Container class1="famous-wrapper wish py-5 home-wrapper-2">
-        <div className="row">
-          <div className="col-3">
-            <div className="famous-card position-relative">
-              <img className="content-img img-fluid" src={famous1} alt="" />
-              <div className="famous-content position-absolute">
-                <h5>Big Screen</h5>
-                <h6>Smart Watch Series 9</h6>
-                <p>From $399 0r $16.62/mo. for 24 mo.*</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-3">
-            <div className="famous-card position-relative">
-              <img className="content-img img-fluid" src={famous2} alt="" />
-              <div className="famous-content position-absolute">
-                <h5 className="text-dark">Big Screen</h5>
-                <h6 className="text-dark">Smart Watch Series 9</h6>
-                <p className="text-dark">From $399 0r $16.62/mo. for 24 mo.*</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-3">
-            <div className="famous-card position-relative">
-              <img className="content-img img-fluid" src={famous3} alt="" />
-              <div className="famous-content position-absolute">
-                <h5 className="text-dark">Big Screen</h5>
-                <h6 className="text-dark">Smart Watch Series 9</h6>
-                <p className="text-dark">From $399 0r $16.62/mo. for 24 mo.*</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-3">
-            <div className="famous-card position-relative">
-              <img className="content-img img-fluid" src={famous4} alt="" />
-              <div className="famous-content position-absolute">
-                <h5 className="text-dark">Big Screen</h5>
-                <h6 className="text-dark">Smart Watch Series 9</h6>
-                <p className="text-dark">From $399 0r $16.62/mo. for 24 mo.*</p>
-              </div>
-            </div>
-          </div>
         </div>
       </Container>
       <Container class1="special-wrapper wish py-5 home-wrapper-2">

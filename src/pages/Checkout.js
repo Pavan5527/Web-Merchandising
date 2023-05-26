@@ -13,7 +13,7 @@ const Checkout = () => {
         <div className="row">
           <div className="col-7">
             <div className="checkout-left-data">
-              <h3 className="website-name">Dev Corner</h3>
+              <h3 className="website-name">Purchase Paradise Corner</h3>
               <nav
                 style={{ "--bs-breadcrumb-divider": ">" }}
                 aria-label="breadcrumb"
@@ -136,8 +136,8 @@ const Checkout = () => {
                     <img className="img-fluid" src={watch} alt="product" />
                   </div>
                   <div>
-                    <h5 className="total-price">fkjbgjdf</h5>
-                    <p className="total-price">jf / ksjgwgowojirj</p>
+                    <h5 className="total-price">Samsung</h5>
+                    <p className="total-price">Watch / Active 2</p>
                   </div>
                 </div>
                 <div className="flex-grow-1">

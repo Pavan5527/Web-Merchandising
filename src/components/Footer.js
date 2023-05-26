@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="col-5">
               <div className="footer-top-data d-flex gap-30 align-items-center">
                 <img src={newsletter} alt="" />
-                <h2 className="mb-0 text-white">Sign Up for Newaletter</h2>
+                <h2 className="mb-0 text-white">Sign Up for NewsLetter</h2>
               </div>
             </div>
             <div className="col-7">
@@ -116,7 +116,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-12">
               <p className="text-center mb-0 text-white">
-                &copy; {new Date().getFullYear()}; Powered by Developers Corner
+                &copy; {new Date().getFullYear()}; Powered by Cartique Corner
               </p>
             </div>
           </div>
