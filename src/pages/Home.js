@@ -12,6 +12,10 @@ import catbanner4 from "../images/catbanner-04.jpg";
 import headphone from "../images/headphone.jpg";
 import camera from "../images/camera.jpg";
 import tv from "../images/tv.jpg";
+// import famous1 from "../images/famous-1.webp";
+// import famous2 from "../images/famous-2.webp";
+// import famous3 from "../images/famous-3.webp";
+// import famous4 from "../images/famous-4.webp";
 import brand1 from "../images/brand-01.png";
 import brand2 from "../images/brand-02.png";
 import brand3 from "../images/brand-03.png";
@@ -224,6 +228,50 @@ const Home = () => {
           <ProductCard />
         </div>
       </Container>
+      {/* <Container class1="famous-wrapper wish py-5 home-wrapper-2">
+        <div className="row">
+          <div className="col-3">
+            <div className="famous-card position-relative">
+              <img className="content-img img-fluid" src={famous1} alt="" />
+              <div className="famous-content position-absolute">
+                <h5>Big Screen</h5>
+                <h6>Smart Watch Series 9</h6>
+                <p>From $399 0r $16.62/mo. for 24 mo.*</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-3">
+            <div className="famous-card position-relative">
+              <img className="content-img img-fluid" src={famous2} alt="" />
+              <div className="famous-content position-absolute">
+                <h5 className="text-dark">Big Screen</h5>
+                <h6 className="text-dark">Smart Watch Series 9</h6>
+                <p className="text-dark">From $399 0r $16.62/mo. for 24 mo.*</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-3">
+            <div className="famous-card position-relative">
+              <img className="content-img img-fluid" src={famous3} alt="" />
+              <div className="famous-content position-absolute">
+                <h5 className="text-dark">Big Screen</h5>
+                <h6 className="text-dark">Smart Watch Series 9</h6>
+                <p className="text-dark">From $399 0r $16.62/mo. for 24 mo.*</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-3">
+            <div className="famous-card position-relative">
+              <img className="content-img img-fluid" src={famous4} alt="" />
+              <div className="famous-content position-absolute">
+                <h5 className="text-dark">Big Screen</h5>
+                <h6 className="text-dark">Smart Watch Series 9</h6>
+                <p className="text-dark">From $399 0r $16.62/mo. for 24 mo.*</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Container> */}
       <Container class1="marque-wrapper wish home-wrapper-2 py-5">
         <div className="row">
           <div className="col-12">
