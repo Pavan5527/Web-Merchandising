@@ -10,7 +10,7 @@ const Contact = () => {
     <>
       <Meta title={"Contact Us"} />
       <BreadCrum title="Contact Us" />
-      <Container class1="contact-wrapper py-5 home-wrapper-2">
+      <Container class1="contact-wrapper wish py-5 home-wrapper-2">
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">

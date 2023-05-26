@@ -18,7 +18,7 @@ const OurStore = () => {
     <>
       <Meta title={"Our Store"} />
       <BreadCrum title="Our Store" />
-      <Container class1="store-wrapper home-wrapper-2 py-5">
+      <Container class1="store-wrapper wish home-wrapper-2 py-5">
         <div className="container-xxl">
           <div className="row">
             <div className="col-3">
@@ -186,11 +186,9 @@ const OurStore = () => {
                     <p className="mb-0 d-block" style={{ width: "100px" }}>
                       Sort By:
                     </p>
-                    <select name="" className="form-control form-select" id="">
+                    <select name="" defaultValue={"manual"} className="form-control form-select" id="">
                       <option value="manual">Featured</option>
-                      <option value="best-selling" selected="selected">
-                        Best selling
-                      </option>
+                      <option value="best-selling">Best selling</option>
                       <option value="title-ascending">
                         Alphabetically, A-Z
                       </option>

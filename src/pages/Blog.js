@@ -9,7 +9,7 @@ const Blog = () => {
     <>
       <Meta title={"Blogs"} />
       <BreadCrum title="Blogs" />
-      <Container class1="blog-wrapper home-wrapper-2 py-5">
+      <Container class1="blog-wrapper wish home-wrapper-2 py-5">
         <div className="row">
           <div className="col-3">
             <div className="filter-card mb-3">
