@@ -50,7 +50,9 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### `Screenshots of the Application`
 
-
-
-![Uploading D1.png…]()
-
+![D1](https://github.com/Pavan5527/Web-Merchandising/assets/85097031/22434c45-7b85-4755-adf7-692c45364a0f)
+![D4](https://github.com/Pavan5527/Web-Merchandising/assets/85097031/33a01360-313a-4d34-92bc-9712fcf56e81)
+![D2](https://github.com/Pavan5527/Web-Merchandising/assets/85097031/5b0afd25-4958-4075-9aa4-70a07a756de6)
+![D3](https://github.com/Pavan5527/Web-Merchandising/assets/85097031/8565ae42-f2e3-4259-b97f-122b08601225)
+![D5](https://github.com/Pavan5527/Web-Merchandising/assets/85097031/1b71aa5e-83e8-41cb-b286-72e85a6a73f5)
+![D6](https://github.com/Pavan5527/Web-Merchandising/assets/85097031/b6a79d52-d7ff-4935-84c5-05f899ac2863)
