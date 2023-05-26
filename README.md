@@ -46,4 +46,11 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### `Live Application : `
-### https://dealsheaven.netlify.app/
+### https://dealsheaven.netlify.app/![D1](https://github.com/Pavan5527/Web-Merchandising/assets/85097031/71dd0a02-0a9c-4795-a2d6-57c31e3e42c3)
+
+### `Screenshots of the Application`
+
+
+
+![Uploading D1.png…]()
+
